@@ -1,0 +1,237 @@
+.fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  /* extra lang to for the web */
+  p.groove {border-style: groove; color: brown;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;}
+  p.double {border-style: double; color: green;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;}
+  p.outset {border-style: outset ;
+  }
+  h3.pink {color:linen;
+  } 
+  h2.blue {color:lightskyblue;
+  }
+  h2.lmao {color:linen;
+  }
+  h2.key {color:linen;
+  }
+  h2.grey {color:red;
+  }
+  
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url("pic2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  
+    
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 100px;
+    text-align: center;
+    background-image: url(pic1.jpg);
+    min-height: 100px;
+    width: 100%;
+  }
+  
+  .header h1 {
+    font-family: Courier New;
+    font-size: 50px;
+    color: white;
+  }
+  
+  
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 1000px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #a9a9a9;
+  }
+  
+  .topnavv {
+    overflow: hidden;
+    background-color: oldlace;
+  }
+  
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: maroon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnavv a {
+    float: left;
+    display: block;
+    color: maroon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: lightskyblue;
+    color: black;
+  }
+  .topnavv a:hover {
+    background-color: lightskyblue;
+    color: black;
+  }
+  
+  
+  
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  
+  .cardibi {
+    
+    background-color: hotpink;
+    padding: 20px;
+    margin-top: 20px;
+  
+  }
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  
+  .cardd {
+    
+    padding: 5px;
+    margin-top: 5px;
+    height: 655px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+  
+  }
+  .carddd {
+    
+    padding: 5px;
+    margin-top: 5px;
+    height: 477px;
+    background: linear-gradient(to left, #33ccff ,#ff99cc 100%)
+  
+  }
+  
+  .cardddd {
+    
+    background-color: lightcyan;
+    padding: 20px;
+    margin-top: 20px;
+  
+  }
+  
+  
+  
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    font-family: Courier;
+    font-size: 10px;
+    padding: 0px;
+    text-align: center;
+    background: lightskyblue;
+    margin-top: 2px;
+  
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 0%;
+    }
+  }
